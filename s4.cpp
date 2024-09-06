@@ -1,3 +1,10 @@
+/* Q Define a class named Hotel in C++ with the following specifications. The class should have private members: Rno to store the room 
+number, Name to store the customer’s name, Tariff to store the per day charges, and NOD to store the number of days of stay. Additionally, 
+it should have a private member function CALC() to calculate and return the total amount as NOD * Tariff. If the value of NOD * 
+Tariff exceeds 10,000, the total amount should be calculated as 1.05 * NOD * Tariff. The public members of the class should include a 
+function Checkin() to input the details for Rno, Name, Tariff, and NOD, and a function Checkout() to display the values of Rno, Name, 
+Tariff, NOD, and the calculated amount (by calling the CALC() function).  */
+
 #include <iostream>
 using namespace std;
 

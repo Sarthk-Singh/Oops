@@ -1,7 +1,11 @@
+/* Q Implement a C++ program by defining a class to represent a bank account. The class should include data members for the name of the 
+depositor, the account number, the type of account (such as Savings or Current), and the balance amount in the account. The class should 
+also have member functions to assign initial values to these data members, deposit an amount into the account, withdraw an amount after 
+checking the balance to ensure sufficient funds are available, and display the depositor's name along with the current balance. */
+
 #include<iostream>
 using namespace std;
 
-//lsdnvdsjkbdvjsdv
 class bank
 {
     string name;
