@@ -5,6 +5,7 @@ Tariff exceeds 10,000, the total amount should be calculated as 1.05 * NOD * Tar
 function Checkin() to input the details for Rno, Name, Tariff, and NOD, and a function Checkout() to display the values of Rno, Name, 
 Tariff, NOD, and the calculated amount (by calling the CALC() function).  */
 
+
 #include <iostream>
 using namespace std;
 
