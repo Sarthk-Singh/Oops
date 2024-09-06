@@ -5,6 +5,7 @@
  calculateTotalScore() that returns the sum of the scores. Once this class is implemented, the code will compare Anna's total score against 
  those of other students to determine and print the number of students who have scored higher than her. */
 
+
 #include <iostream>
 using namespace std;
 
