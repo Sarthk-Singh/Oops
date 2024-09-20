@@ -27,17 +27,43 @@ class complex
         ob3.imag=imag+ob.imag;
         return ob3;
     }
+    complex operator -(complex ob)
+    {
+        complex ob3;
+        ob3.real=real-ob.real;
+        ob3.imag=imag-ob.imag;
+        return ob3;
+    }
+    bool operator ==(complex ob)
+    {
+        if(real==ob.real&&imag==ob.imag)
+        {
+            return true;
+        }
+        return false;
+    }
+    
     void display()
     {
-        cout<<real<<" "<<imag<<endl;
+        cout<<"Real:"<<real<<" Imag:"<<imag<<endl;
     }
 };
 int main()
 {
-    complex ob1(2,2);
+    complex ob1(3,3);
     complex ob2(3,3);
     complex ob3;
     ob3=ob1+ob2;
+    cout<<"Sum:"<<endl;
     ob3.display();
+
+    ob3=ob1-ob2;
+    cout<<"Difference:"<<endl;
+    ob3.display();
+    
+    if(ob1==ob2)
+        cout<<"Equal"<<endl;
+    else
+        cout<<"Not equal"<<endl;
     return 0;
 }
